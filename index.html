@@ -2,92 +2,93 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <title>Inschrijfformulier</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Inschrijfformulier</title>
 </head>
 
 <body>
- <header class="header">
-  <h1>Sign up your new recipe</h1>
- </header>
- <form name="contact" method="POST" data-netlify="true">
+   <header class="header">
+      <h1>Sign up your new recipe</h1>
+   </header>
+   <form name="contact" method="POST" data-netlify="true">
 
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" required><br>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" required><br>
 
-  <label for="email">Enter your email:</label><br>
-  <input type="email" name="email" id="email" placeholder="me@myemail.com" required> <br>
+      <label for="email">Enter your email:</label><br>
+      <input type="email" name="email" id="email" placeholder="me@myemail.com" required> <br>
 
-  <label for="tel">Telephone number:</label><br>
-  <input type="tel" name="phone" id="phone" placeholder="06 11252325" required><br>
+      <label for="tel">Telephone number:</label><br>
+      <input type="tel" name="phone" id="phone" placeholder="06 11252325" required><br>
 
 
-  <label for="age">Age:</label><br>
-  <input type="number" name="age" id="age" min="1" max="200" step="5" placeholder="18"><br>
+      <label for="age">Age:</label><br>
+      <input type="number" name="age" id="age" min="1" max="200" step="5" placeholder="18"><br>
 
-  <label for="date">Date of birth:</label><br>
-  <input type="date" name="birthday" id="birthday" min="2019-06-10"><br>
+      <label for="date">Date of birth:</label><br>
+      <input type="date" name="birthday" id="birthday" min="2019-06-10"><br>
 
-  <label>Gender:</label><br>
+      <label>Gender:</label><br>
 
-  <input type="radio" name="gender" id="male" value="male" checked="checked">
-  <label for="male">Male</label><br>
+      <input type="radio" name="gender" id="male" value="male" checked="checked">
+      <label for="male">Male</label><br>
 
-  <input type="radio" name="gender" id="female" value="female">
-  <label for="female">Female</label><br>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label><br>
 
-  <input type="radio" name="gender" id="other" value="other">
-  <label for="other">Other</label><br>
+      <input type="radio" name="gender" id="other" value="other">
+      <label for="other">Other</label><br>
 
-  <!--
+      <!--
      <label for="favorite cuisine">What's your favorite cuisine?</label><br>
   <input type="checkbox" name="favorite cuisine" value="french"><label>French</label><br>
   <input type="checkbox" name="favorite cuisine" value="italian"><label>Italian</label><br>
   <input type="checkbox" name="favorite cuisine" value="spanish"><label>Spanish</label><br>
   <input type="checkbox" name="favorite cuisine" value="arabic"><label>Arabic</label><br>
   -->
-  <div>
-   Favorite Cuisine
-   <div>
+      <div>
+         Favorite Cuisine
+         <div>
 
-    <input type="checkbox" name="italian" id="italian" />
-    <label for="italian">Italian</label>
-   </div>
-   <div>
+            <input type="checkbox" name="italian" id="italian" />
+            <label for="italian">Italian</label>
+         </div>
+         <div>
 
-    <input type="checkbox" name="french" id="french" />
-    <label for="french">French</label>
-   </div>
-   <div>
+            <input type="checkbox" name="french" id="french" />
+            <label for="french">French</label>
+         </div>
+         <div>
 
-    <input type="checkbox" name="spanish" id="spanish" />
-    <label for="spanish">Spanish</label>
-   </div>
-   <div>
+            <input type="checkbox" name="spanish" id="spanish" />
+            <label for="spanish">Spanish</label>
+         </div>
+         <div>
 
-    <input type="checkbox" name="arabic" id="arabic" />
-    <label for="arabic">Arabic</label>
-   </div>
+            <input type="checkbox" name="arabic" id="arabic" />
+            <label for="arabic">Arabic</label>
+         </div>
 
 
-   <label for="favcolor">Select your favorite apron color:</label><br>
-   <input type="color" name="favcolor" id="favcolor"><br>
+         <label for="favcolor">Select your favorite apron color:</label><br>
+         <input type="color" name="favcolor" id="favcolor"><br>
 
-   <label for="aboutyou">Tell us more about yourself:</label><br>
-   <textarea name="aboutyou" id="aboutyou" cols="30" rows="10" placeholder="Your short biography..."></textarea><br>
+         <label for="aboutyou">Tell us more about yourself:</label><br>
+         <textarea name="aboutyou" id="aboutyou" cols="30" rows="5"
+            placeholder="Your short biography..."></textarea><br>
 
-   <label for="uploadfile">Please upload your latest recipe:</label><br>
-   <input type="file" name="newrecipe" id="newrecipe"><br>
+         <label for="uploadfile">Please upload your latest recipe:</label><br>
+         <input type="file" name="newrecipe" id="newrecipe"><br>
 
-   <label for="homepage">Link your homepage here:</label><br>
-   <input type="url" name="homepage" id="homepage" placeholder="www.my-recipe.com"><br>
+         <label for="homepage">Link your homepage here:</label><br>
+         <input type="url" name="homepage" id="homepage" placeholder="www.my-recipe.com"><br>
 
-   <input type="reset" value="Reset">
-   <input type="submit" value="Submit">
- </form>
+         <input type="reset" value="Reset">
+         <input type="submit" value="Submit">
+   </form>
 </body>
 
 </html>
